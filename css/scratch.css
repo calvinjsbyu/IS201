@@ -1,0 +1,122 @@
+.header {
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 15px;
+    text-align: left;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    background: #fffff9;
+    font-size: 30px;
+  }
+
+a.home:link {
+  color: #464646;
+  background: #fffff9;
+  font-size: 30px;
+  text-decoration: none;
+  }
+
+a.home:hover {
+  color: #624769;
+  background: #fffff9;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+a.home:visited {
+  color: #464646;
+  background: #fffff9;
+  font-size: 30px;
+  text-decoration: none;
+  }
+
+.container {
+    position: relative;
+    color: white;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+  }
+
+.centered {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 25%;
+    right: 35%;
+    font-size: 200%;
+    transform: translate(-50%, -50%);
+  }
+
+.notes {
+  color: rgb(255, 255, 255);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  
+  font-size: 17px;
+}
+
+.titles {
+  color:white;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 18px;
+}
+
+.graybox {
+  position: relative;
+  background-color: rgb(44, 44, 44);
+  padding: 40px;
+  margin-left: -8px;
+  margin-right: -8px;
+  
+}
+
+.textbox {
+  font-size: 1px;
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 25%;
+  right: 35%;
+  font-size: 200%;
+  transform: translate(-20%, 0%);
+  line-height: 1.6;
+}
+
+.funfactcontainer{
+  position: relative;
+}
+
+.funfactp1{
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  background-color:#525252;
+  padding:60px;
+  margin:30px;
+  transform:translate(0%,0%);
+}
+
+.funfactp2{
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  background-color:#525252;
+  padding:60px;
+  margin:30px;
+  transform:translate(0%,120%);
+}
+
+.funfactp3{
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  background-color:#525252;
+  padding:60px;
+  margin:30px;
+  transform:translate(0%,240%);
+}
+
+.tableau{
+  margin: auto;
+}
